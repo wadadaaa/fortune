@@ -2,7 +2,7 @@
   "name": "node-example",
   "version": "1.0.0",
   "description": "This example is so cool.",
-  "main": "big_data.js",
+  "main": "./big_data.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,6 +12,10 @@
   ],
   "engines": {
     "node": "4.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wadadaaa/fortune.git"
   },
   "author": "wadadaaa",
   "license": "MIT"
