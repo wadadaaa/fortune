@@ -154,6 +154,6 @@ fortunes = [
                 }))
             }
 
-            $('#btn').click(watch_the_fortune_burn)
+            $('#btn').click(watch_the_fortune_burn);
             watch_the_fortune_burn()
 }())
