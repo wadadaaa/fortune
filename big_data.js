@@ -19,14 +19,14 @@ var characteristic_adjective = wrds([
 var noun_feminine = wrds([
     "волны",
     "взрывы",
-    "цунами",
-    "волнения",
+    "приливы",
+    "лавины",
 ])
 
 var adjective_characterization = wrds([
     "вселенского",
     "космического",
-    "всесветного",
+    "высшего",
     "всегалактического",
 ])
 
@@ -81,30 +81,30 @@ var action_verb = wrds([
 
 var just_noun = wrds([
     "силы",
-    "власть",
-    "мощь",
-    "избытки",
+    "время",
+    "деньги",
+    "ништяки",
 ])
 
 var just_adv = wrds([
     "уёбищных",
-    "хуиных",
+    "отсталых",
     "отвратительных",
     "триждыёбаных",
 ])
 
 var genitive = wrds([
     "обрыганов",
-    "слоупоков",
     "обсосков",
     "ушлёпков",
+    "ебланов",
 ])
 
 var love_verb = wrds([
     "Любите",
-    "Обоготворяйте",
+    "Боготворите",
     "Лелейте",
-    "Ублажай",
+    "Ублажайте",
 ])
 
 var love_adverb = wrds([
@@ -151,6 +151,7 @@ fortunes = [
                     if (typeof headline == 'function')
                         headline = headline()
                     return $('<li>').text(headline)
+
                 }))
             }
 
