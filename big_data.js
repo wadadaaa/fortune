@@ -114,6 +114,68 @@ var love_adverb = wrds([
     "в общем",
 ])
 
+var noun_one = wrds([
+    "Надежды",
+    "Иллюзии",
+    "Упования",
+    "Надюшеньки",
+])
+
+var verb_one = wrds([
+    "возлагали",
+    "накладывали",
+    "перекладывали",
+    "взваливали",
+])
+
+var adjective_one = wrds([
+    "некоторых",
+    "невесть какой",
+    "отдельных",
+    "немногих",
+    "каких попало",
+])
+
+var noun_one_two = wrds([
+    "людей",
+    "кадров",
+    "мирян",
+    "людишек",
+    "близких",
+])
+
+var verb_one_two = wrds([
+    "разлетятся",
+    "разъебутся",
+    "расхуячатся",
+    "ебнутся",
+    "разобьются",
+])
+
+var verb_one_two_three = wrds([
+    "вдребезги",
+    "в хламину",
+    "в дупель",
+    "в драбадан",
+    "в чистую",
+])
+
+var apology = wrds([
+    "Соррян",
+    "Держитесь там",
+    "Здровья вам",
+    "Необессудьте",
+    "Хоршего настроения",
+])
+
+var expression = wrds([
+    "бывает и хуже",
+    "ещё ничего",
+    "не так уж всё отвратительно",
+    "хуйня всё",
+    "всё не так плохо",
+])
+
 fortunes = [
     function () {
               return action_imperative_verb + 'на' + ' ' +
@@ -127,6 +189,11 @@ fortunes = [
                       just_noun + 'на себя, а не на' + ' ' + just_adv + genitive +
                       '.' + ' ' +
                       love_verb + 'себя' + ' ' + love_adverb;
+                    },
+    function () {
+              return noun_one + ',' + 'которые вы' + ' ' +
+                      verb_one + 'на' + ' ' + adjective_one + noun_one_two + ',' +
+                      verb_one_two + verb_one_two_three + '.' + ' ' + apology + ',' + expression;
                     }
             ]
 
